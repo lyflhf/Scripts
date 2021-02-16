@@ -6,7 +6,7 @@ name: 中青看点
 on:
   workflow_dispatch:
   schedule:
-     - cron: '0-24/8 */3* * *'
+     - cron: '0-25/7  */3 * * *'
   watch:
     types: started
 
@@ -17,7 +17,6 @@ jobs:
     env:
         YOUTH_HEADER: ${{ secrets.YOUTH_HEADER }}
         YOUTH_ARTBODY: ${{ secrets.YOUTH_ARTBODY }}
-        YOUTH_REDBODY: ${{ secrets.YOUTH_REDBODY }}
         YOUTH_TIME: ${{ secrets.YOUTH_TIME }}
     steps:
       - name: Checkout
@@ -51,5 +50,4 @@ jobs:
           PUSH_PLUS_USER: ${{ secrets.PUSH_PLUS_USER}}
           TG_PROXY_HOST: ${{ secrets.TG_PROXY_HOST}}
           TG_PROXY_PORT: ${{ secrets.TG_PROXY_PORT}}
-
 
