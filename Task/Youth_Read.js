@@ -51,9 +51,10 @@ let ReadArr = [], YouthBody = "",readscore = 0;
 function AutoRead() {
     return new Promise((resolve, reject) => {
        let url = {
-            url: `https://ios.baertt.com/v5/article/complete.json`,
+            url: ` https://kandian.youth.cn/v5/article/complete.json`,
             headers: {
-            'User-Agent': 'KDApp/1.7.8 (iPhone; iOS 14.0; Scale/3.00)'
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4
+'
             },
             body: articlebody
         };
