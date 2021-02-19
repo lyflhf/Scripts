@@ -53,7 +53,7 @@ function AutoRead() {
        let url = {
             url: ` https://kandian.youth.cn/v5/article/complete.json`,
             headers: {
-            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4
+            'User-Agent': 'KDApp/2.0.0 (iPhone; iOS 14.5; Scale/3.00)
 '
             },
             body: articlebody
